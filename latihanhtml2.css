@@ -1,0 +1,104 @@
+body {
+  background-color: azure;
+}
+#menu-bar {
+  background-color: beige;
+  display: flex;
+  margin-right: 24px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.menu-items {
+  color: black;
+  margin: 18px;
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  margin-right: 24px;
+}
+
+.title-content {
+  background-color: beige;
+  display: flex;
+  margin-top: 24px;
+  justify-content: left;
+}
+
+.format-judul {
+  margin-right: 24px;
+  margin-bottom: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: row;
+  align-items: flex-start;
+}
+
+.format-subjudul {
+  margin-top: 0px;
+}
+
+.button-title {
+  margin-top: 60px;
+}
+
+.alt-button {
+  background-color: blue;
+  color: white;
+  padding: 8px 24px;
+  border: 2px solid blue;
+  text-decoration: none;
+}
+
+.format-button {
+  background-color: white;
+  color: green;
+  padding: 8px 24px;
+  border: 2px solid green;
+  text-decoration: none;
+}
+
+.paragraf1 {
+  text-align: left;
+  margin-right: 40px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  margin-left: 50px;
+}
+
+.paragraf2 {
+  margin-right: 40px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  margin-left: 50px;
+}
+
+img {
+  margin-left: 10px;
+}
+
+.textform {
+  background-color: white;
+  margin-right: 24px;
+}
+
+#lname {
+  width: 1318px;
+  height: 18px;
+  margin-right: 12px;
+}
+
+.button-submit {
+  width: 1326px;
+  height: 28px;
+  margin-right: 12px;
+  margin-top: 10px;
+  background-color: green;
+  color: white;
+}
